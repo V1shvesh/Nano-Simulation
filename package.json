@@ -1,0 +1,32 @@
+{
+  "name": "Nano-Simulation",
+  "version": "1.0.0",
+  "description": "A web-based simulation of Nano Cryptocurrency.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "nodeA": "nodemon ./nanoNode.js 3001",
+    "nodeB": "nodemon ./nanoNode.js 3002",
+    "nodeC": "nodemon ./nanoNode.js 3003",
+    "nodeD": "nodemon ./nanoNode.js 3004"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/V1shvesh/Nano-Simulation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/V1shvesh/Nano-Simulation/issues"
+  },
+  "homepage": "https://github.com/V1shvesh/Nano-Simulation#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "node-rsa": "^1.0.5",
+    "nodemon": "^1.18.11",
+    "request": "^2.88.0",
+    "sha256": "^0.2.0"
+  }
+}
